@@ -1,2 +1,2 @@
 # myfolio
-Single page portfolio website
+Single page website
