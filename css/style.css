@@ -11,6 +11,7 @@ html {		overflow-y:scroll;	}
 	 	    src: url('../fonts/icomoon/icomoond41d.eot?#iefix') format('embedded-opentype'),
 	 	    url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
 	 	    url('../fonts/icomoon/icomoon.woff') format('woff'),
+	 	    url('../fonts/icomoon/icomoon_custom.ttf') format('truetype'),
 	 	    url('../fonts/icomoon/icomoon.ttf') format('truetype');	}
 /*-------------------------------------------------------*/
 /* Wrap */
