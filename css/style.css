@@ -1,66 +1,111 @@
 /*-------------------------------------------------------*/
 /* Base styles	 */
 /*-------------------------------------------------------*/
-html {		overflow-y:scroll;	}
-	body {		background-color: #E8E8E8;		margin: 0px;		padding: 0px;
-		font-family:'open Sans', Arial;		font-size: 12px;	}
-	/* Font face */
-	@font-face {
-	 	    font-family: 'icomoon';
-	 	    src: url('../fonts/icomoon/icomoon.eot');
-	 	    src: url('../fonts/icomoon/icomoond41d.eot?#iefix') format('embedded-opentype'),
-	 	    url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
-	 	    url('../fonts/icomoon/icomoon.woff') format('woff'),
-	 	    url('../fonts/icomoon/icomoon_custom.ttf') format('truetype'),
-	 	    url('../fonts/icomoon/icomoon.ttf') format('truetype');	}
+html {
+	overflow-y:scroll;
+}
+body {
+	background-color: #E8E8E8;
+	margin: 0px;
+	padding: 0px;
+	font-family:'open Sans', Arial;
+	font-size: 12px;
+}
+/* Font face */
+@font-face {
+		font-family: 'icomoon';
+		src: url('../fonts/icomoon/icomoon.eot');
+		src: url('../fonts/icomoon/icomoond41d.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon_custom.ttf') format('truetype'),
+			url('../fonts/icomoon/icomoon.ttf') format('truetype');	
+}
 /*-------------------------------------------------------*/
 /* Wrap */
 /*-------------------------------------------------------*/
-#container {		margin:0 auto;		width:860px;		margin-bottom: 20px;		margin-top: 30px;	}
-#content {		background-color:#FFF;
+#container {
+	margin:0 auto;
+	width:860px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+#content {
+	background-color:#FFF;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-	}
+}
 /*-------------------------------------------------------*/
 /* Generic Classes */
 /*-------------------------------------------------------*/
-.hidden {		display: none;	}
+.hidden {
+	display: none;
+}
 /* Clearfix */
-.clear{	  clear:both;	  display:block;	  height:0;	  overflow:	  hidden;	  visibility:hidden;	  width:0	}
+.clear{
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+}
 .clearfix:after{
-	clear:both;	  content:' ';	  display:block;	  font-size:0;	  height:0;	  line-height:0;
-	visibility:hidden;	  width:0	}
-* html .clearfix,:first-child+html .clearfix{	  zoom:1	}
-.extra-text {		font-size:20px;		padding:24px 0;		border-bottom:1px solid #ededed;
-	color: #999;		margin-bottom:20px;		font-weight: 300;	}
-.transition {    	-webkit-transition:all .5s ease;
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+}
+* html .clearfix,:first-child+html .clearfix{
+	zoom:1;	
+}
+.extra-text {
+	font-size:20px;
+	padding:24px 0;
+	border-bottom:1px solid #ededed;
+	color: #999;
+	margin-bottom:20px;
+	font-weight: 300;
+}
+.transition {
+	-webkit-transition:all .5s ease;
 	-moz-transition:all .5s ease;
 	-ms-transition:all .5s ease;
 	-o-transition:all .5s ease;
-	transition:all .5s ease;    }
-.word-wrap {		word-wrap: break-word;
+	transition:all .5s ease;
+}
+.word-wrap {
+	word-wrap: break-word;
 	-ms-word-break: break-all;
 	word-break: break-all;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
-	hyphens: auto;    }
+	hyphens: auto;
+}
 /*-------------------------------------------------------*/
 /* Typography */
 /*-------------------------------------------------------*/
-h1 {font-size: 37px;}
-h2 {font-size: 30px;}
+h1 {font-size: 28px;}
+h2 {font-size: 24px;}
 h3 {font-size: 20px;}
 h4 {font-size: 15px;}
 h5 {font-size: 13px;}
 h6 {font-size: 12px;}
-strong {		font-weight: bold;		color: #333;	}
+strong {
+	font-weight: bold;
+	color: #333;
+}
 h3.main-heading {
 	margin:0px 2px 20px 0px;
 	border-bottom:1px solid #ebebeb;
 	padding-bottom:14px;
-	color:#333;		l
-	ine-height:16px;
+	color:#333;
+	line-height:16px;
 	font-size: 16px;
 	font-weight: 600;
 	display:block;
@@ -173,6 +218,8 @@ header {
 	line-height:18px;
 }
 .about p {
+	text-align: justify;
+    text-justify: inter-word;
 	font-size:14px;
 	margin-top:15px;
 	color:/*profileTextColor*/#a87f09;
