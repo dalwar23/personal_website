@@ -1,2 +1,0 @@
-# myfolio
-Single page website
